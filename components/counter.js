@@ -1,6 +1,5 @@
 import {ResetButton} from './resetButton'
 import {useCounter} from '../store/useCounter'
-import shallow from 'zustand/shallow'
 
 export const Counter = () => {
   const { count, increment, decrement } = useCounter(
@@ -8,8 +7,7 @@ export const Counter = () => {
       count: store.count,
       increment: store.increment,
       decrement: store.decrement,
-    }),
-    shallow
+    })
   )
   return (
     <div>
