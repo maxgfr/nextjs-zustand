@@ -2,7 +2,7 @@ repo_name: maxgfr/nextjs-zustand
 report_id: f6a7c7b8a493d0daee42544b614a915c
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-05T08:56:35+00:00'
+timestamp: '2024-02-29T18:32:46+00:00'
 requested_by: maxgfr
 provider: github
 branch: main
@@ -30,7 +30,7 @@ tools:
   detection_source_url: https://github.com/maxgfr/nextjs-zustand
   detection_source: Repo Metadata
 - name: Next.js
-  description: 'A small framework for server-rendered universal JavaScript apps '
+  description: A small framework for server-rendered universal JavaScript apps
   website_url: https://nextjs.org/
   version: 10.2.3
   open_source: true
